@@ -4,8 +4,7 @@ import Cookies from 'js-cookie';
 import { useNavigate } from 'react-router-dom';
 import { toastError, toastSuccess } from '../utils/Toast';
 
-
-const SOCKET_URL = `wss://ayna-backend-1.onrender.com`; 
+const SOCKET_URL = `wss://ayna-backend-1.onrender.com`;
 const STRAPI_API_URL = 'https://hopeful-miracle-e4784cb5a7.strapiapp.com/api/messages';
 const STRAPI_API_TOKEN = process.env.REACT_APP_STRAPI_API_TOKEN;
 
