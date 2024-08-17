@@ -26,7 +26,7 @@ export default function Login() {
       body: JSON.stringify(jsonData)
     };
 
-    const req = await fetch('http://localhost:1337/api/auth/local', reqOptions);
+    const req = await fetch('https://hopeful-miracle-e4784cb5a7.strapiapp.com/api/auth/local', reqOptions);
     const res = await req.json();
 
     if (res.error) {
